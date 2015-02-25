@@ -21,7 +21,17 @@ include 'settings.php';
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="masthead">
+      <h3 class="text-muted">Project name</h3>
+      <nav>
+        <ul class="nav nav-justified">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV</a></li>
+          <li><a href="#">Music</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
